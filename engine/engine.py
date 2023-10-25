@@ -1,6 +1,6 @@
-from ..serviceable import Serviceable
+from abc import ABC
 
-class Engine(Serviceable):
 
-    def needs_service(self) -> bool:
+class Engine(ABC):
+    def needs_service(self):
         pass

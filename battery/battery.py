@@ -1,6 +1,6 @@
-from ..serviceable import Serviceable
+from abc import ABC
 
-class Battery(Serviceable):
 
-    def needs_service(self) -> bool:
+class Battery(ABC):
+    def needs_service(self):
         pass
