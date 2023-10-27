@@ -4,6 +4,8 @@ from car import Car
 from engine.capulet_engine import CapuletEngine
 from engine.sternman_engine import SternmanEngine
 from engine.willoughby_engine import WilloughbyEngine
+from tire.carrigan_tires import CarriganTires
+from tire.octoprime_tires import OctoprimeTires
 
 
 class CarFactory:
